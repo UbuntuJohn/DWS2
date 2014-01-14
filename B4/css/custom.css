@@ -41,6 +41,11 @@ footer {
       background-color: #F3B853;
     }
 
-  .nav-pills > li > .active > a:focus {
-  	background-color: green;
-  }
+
+.glyphicon-star {
+	color: #EF8D36;
+}
+
+.heart {
+	color: red;
+}
