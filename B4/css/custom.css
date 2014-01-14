@@ -1,7 +1,7 @@
 /* Custom CSS by John Keenan */
 
 body {
-	background-color: #2C343B;
+	background-color: #0E2A3F;
 }
 
 footer {
@@ -10,8 +10,6 @@ footer {
 
 .container {
 	background-color: #FFFFFF;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
 }
 
 .row {
@@ -27,3 +25,22 @@ footer {
 .jumbotron {
 	border: 1px solid #D4D4D4;
 }
+
+.nav-pills > li > a {
+      background-color: #EF8D36;
+      color: #ffffff;
+    }
+
+
+.nav-pills > li > .active > a {
+      background-color: red;
+      color: #ffffff;
+    }
+
+ .nav-pills > li > a:hover {
+      background-color: #F3B853;
+    }
+
+  .nav-pills > li > .active > a:focus {
+  	background-color: green;
+  }
