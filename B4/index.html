@@ -22,23 +22,39 @@
 	<nav class='row'>
 		<ul class='nav nav-pills'>
 			<li class='active'><a href='#'><span class="glyphicon glyphicon-home"></span> Home</a></li>
-			<li><a href='#'><span class='glyphicon glyphicon-cog'></span> Services</a></li>
+			<li class="dropdown">
+			<a href='#' class="dropdown-toggle" data-toggle="dropdown"><span class='glyphicon glyphicon-cog'></span> 
+			Services <span class="caret"></span></a>
+			<ul class='dropdown-menu'>
+				<li><a href='#'>Web Design</a></li>
+				<li><a href='#'>Web Hosting</a></li>
+			</ul>
+			</li>
 			<li><a href='#'><span class='glyphicon glyphicon-heart'></span> Portfolio</a></li>
 			<li><a href='#'><span class='glyphicon glyphicon-pencil'></span> Contact</a></li>
 			<li><a href='#'><span class='glyphicon glyphicon-user'></span> About</a></li>
 		</ul>
 	</nav>
+	<div class="jumbotron">
+  		<h1>Awesome!</h1>
+  		<p>I've used Bootstrap in the past, but have only used already created templates downloaded from the website. Overall, this was pretty fun!</p>
+  		<p><a class="btn btn-primary btn-lg" role="button"><span class='glyphicon glyphicon-info-sign'></span> Learn more</a></p>
+	</div>
+
 	<section class='row'>
 		<div class='col-md-8'>
-			<h2>Hello</h2>
+			<h2>We <span class='glyphicon glyphicon-heart-empty'></span> Bootstrap</h2>
 			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
 		</div>
-		<div class='.col-md-4'>
-			<h3>Testing</h3>
-			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+		<div class='col-md-4'>
+			<h3><span class='glyphicon glyphicon-comment'></span> Testimonials</h3>
+			<p class='testimonial'>"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas." - <strong>Business Inc.</strong></p>
+			<p class='testimonial'>"Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus." - <strong>Network Inc.</strong></p>
 		</div>
 	</section>
-	<div class='row'><button type="button" class="btn btn-primary btn-lg">Register Today!</button>
+	<div class='row'>
+		<span class='col-md-8'><button type="button" class="btn btn-primary btn-lg"><span class='glyphicon glyphicon-earphone'></span> Contact Us!</button>
+	</span></div>
 	<footer class='row'>
 		<p>Copyright &copy; 2014 - John Keenan</p>
 	</footer>
