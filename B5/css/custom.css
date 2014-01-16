@@ -8,6 +8,22 @@ ul li {
 	line-height: 40px;
 }
 
+ul li a:link {
+	color: white;
+}
+
+ul li a:visited {
+	color: white;
+}
+
+ul li a:hover {
+	color: #ADD9BD;
+}
+
+.active {
+	color: #ADD9BD;
+}
+
 
 .row {
 	background-color: #FFFFFF;
