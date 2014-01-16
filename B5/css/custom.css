@@ -4,13 +4,10 @@ body {
 
 ul li {
 	display: inline;
-	margin-left: 45px;
+	margin-left: 56px;
 	line-height: 40px;
 }
 
-nav a:link {
-	color: white;
-}
 
 .row {
 	background-color: #FFFFFF;
@@ -64,10 +61,10 @@ footer {
 	border-top: 1px solid black;
 }
 
-@media (max-width: 600px) {
-	.top-bar {
-	
+@media (max-width: 1024px) {
+	.closer {
+		text-align: center;
 	}
-
-
 }
+
+
