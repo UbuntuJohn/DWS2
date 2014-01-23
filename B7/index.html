@@ -81,8 +81,17 @@
 		</datalist>
 	</div>
 	<div>
+		<label for='telephone'>Telephone #:</label>
+		<input type='tel' name='telephone' maxlength='30' required />
+	</div>
+	<div>
 		<label for='favorite_color' required>Favorite Color?</label>
 		<input type='color' maxlength='30' name='favorite_color' />
+	</div>
+	<div>
+		<label for='favorite_color_white'>Why is this your favorite color?</label>
+		<textarea cols='60' rows='6' required></textarea>
+	</div>
 	<div>
 		<label for='birthday'>Birthday: </label>
 		<input type='date' maxlength='30' name='dob' required/>
@@ -95,7 +104,10 @@
 		<label for='start_date'>Start Date:</label>
 		<input type='date' maxlength='30' name='start_date' required/>
 	</div>
-	<div></div>
+	<div>
+		<label for='years_at_employer'>Years at Employer:</label>
+		<input type='range' name='years_at_employer' min='1' max='10' />
+	</div>
 	<div></div>
 	<div></div>
 	<div><input type='submit' value='Send'></div>
