@@ -1,0 +1,166 @@
+body {
+	background-color: #282828;
+	font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+header {
+	height: 140px;
+	border-bottom: 3px solid #3E3E3E;
+}
+
+header h1 {
+	float: left;
+	margin-left: 6.25%;
+	margin-top: 3.125%;
+}
+
+article {
+	padding: 15px;
+}
+
+h1, h2, footer, header, a:link, a:visited {
+	color: #A33D47;
+	text-decoration: none;
+}
+
+footer {
+	margin: 0 auto;
+	width: 87%;
+}
+
+a:hover {
+	color: #c3c3c3;
+}
+
+.nav_right {
+	float: right;
+	margin-right: 60px;
+	margin-top: 20px;
+}
+
+.nav_right ul li{
+	display: inline;
+	margin-right: 40px;
+	font-size: 1.4em;
+}
+
+.container_3 {
+	position: relative;
+	height: 300px;
+	background-color: #f2f2f2;
+	border: 1px solid #c3c3c3;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.container_3:nth-of-type(2) {
+	border: 1px solid #c3c3c3;
+	border-top: none;
+}
+
+.first {
+	position: absolute;
+	width: 30.10752688172%;
+	left: 0;
+	padding: 15px 0 0 15px;
+}
+
+.second {
+	position: absolute;
+	width: 30.10752688172%;
+	left: 34.5806451612905%;
+	padding: 15px 0 0 15px;
+}
+.third {
+	position: absolute;
+	width: 27.978494623656%;
+	left: 67.322580645161%;
+	padding: 15px 15px 0 15px;
+}
+
+
+
+/* ------- MEDIA QUERIES -------- */
+
+@media (max-width: 972px) {
+
+	header ul {
+		position: float;
+	}
+
+	.container_3 {
+		height: 350px;
+	}
+
+
+	.first {
+		width: 30.10752688172%;
+	}
+
+	.second {
+		width: 30.10752688172%;
+	}
+	.third {
+		width: 27.956989247312%;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.container_3 {
+		height: 420px;
+	}
+
+	.container_3:nth-of-type(2) {
+		display: none;
+	}
+
+	header h1 {
+		z-index: 1;
+	
+	}
+
+
+	
+}
+
+
+@media (max-width: 643px) {
+
+	header {
+		border-bottom: none;
+		height: 160px;
+	}
+
+	ul li {
+		font-size: 0.8em;
+	}
+
+	.container_3 {
+		height: 1000px;
+	}
+
+	.first {
+		width: 90%;
+	}
+
+	.second {
+		top: 300px;
+		left: 0;
+		width: 90%;
+	}
+
+	.third {
+		top: 600px;
+		left: 0;
+		width: 90%;
+	}
+
+	
+}
