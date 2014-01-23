@@ -10,13 +10,25 @@ body {
 
 form {
 	background-color: #08BCBD;
-	padding: 60px 120px;
+	padding:60px 15%;
+	border: 4px solid #005958;
 }
 
-
-
-input:not([type='checkbox']) {
+input:not([type='checkbox']), input:not([type='submit']) {
 	width: 100%;
 	height: 40px;
 	font-size: 1.3em;
+	margin-bottom: 20px;
+	border: 1px solid #005958;
+}
+
+@media (max-width: 768px) {
+	#wrapper {
+		width: 100%;
+	}
+
+	input:not([type='checkbox']) {
+		width: 100%;
+
+	}
 }
