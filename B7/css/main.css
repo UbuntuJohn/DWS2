@@ -24,6 +24,17 @@ input:not([type='checkbox']), input:not([type='submit']) {
 
 @media (max-width: 768px) {
 	#wrapper {
+		width: 73.177083333333%;
+	}
+
+	input:not([type='checkbox']) {
+		width: 100%;
+
+	}
+}
+
+@media (max-width: 562px) {
+	#wrapper {
 		width: 100%;
 	}
 

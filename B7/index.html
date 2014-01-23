@@ -12,21 +12,21 @@
 <form action='process.php' method='post'>
 	<div>
 		<label for='full_name'>Full name:</label>
-		<input type='text' size='24' name='full_name' required autofocus placeholder='John Doe' />
+		<input type='text' size='24' name='full_name' maxlength='30' required autofocus placeholder='John Doe' />
 	</div>
 	<div>
 		<label for='address'>Address:</label>
-		<input type='text' size='24' name='address' required placeholder='1234 Street Road' />
+		<input type='text' size='24' name='address' maxlength='30' required placeholder='1234 Street Road' />
 	</div>
 	<div>
 		<label for='city'>City:</label>
-		<input type='text' size='24' name='city' required placeholder='Philadelphia' />
+		<input type='text' size='24' name='city' maxlength='30' required placeholder='Philadelphia' />
 	</div>
 	<div>
 		<label for='states'>State:</label>
 		<input list='states'>
 
-		<datalist id='states' required>
+		<datalist id='states' maxlength='30' required>
 			<option value="AL">Alabama</option> 
 			<option value="AK">Alaska</option> 
 			<option value="AZ">Arizona</option> 
@@ -82,10 +82,10 @@
 	</div>
 	<div>
 		<label for='favorite_color' required>Favorite Color?</label>
-		<input type='color' name='favorite_color' />
+		<input type='color' maxlength='30' name='favorite_color' />
 	<div>
 		<label for='Birthday'>Birthday: </label>
-		<input type='date' name='dob' required/>
+		<input type='date' maxlength='30' name='dob' required/>
 	</div>
 	<div></div>
 	<div></div>
