@@ -98,7 +98,7 @@
 	</div>
 	<div>
 		<label for='employer'>Employer: </label>
-		<input type='text' name='employer' />
+		<input type='text' name='employer' required/>
 	</div>
 	<div>
 		<label for='start_date'>Start Date:</label>
@@ -108,10 +108,15 @@
 		<label for='years_at_employer'>Years at Employer:</label>
 		<input type='range' name='years_at_employer' min='1' max='10' />
 	</div>
-	<div></div>
+	<div>
+		<label for='still'>Still working at Employer?</label><br />
+		<input type='radio' name='stil_working'>Yes 
+		<input type='radio' name='stil_working'>No
+	</div>
 	<div></div>
 	<div><input type='submit' value='Send'></div>
 </form>
 </div>
+<script type='text/js' src='http://modernizr.com/downloads/modernizr-latest.js'></script>
 </body>
 </html>
