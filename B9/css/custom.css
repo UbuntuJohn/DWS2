@@ -1,0 +1,105 @@
+* {
+
+}
+
+.navbar {
+	background-color: #375AB3;
+	color: #fff;
+}
+
+.navbar a:link {
+	color: #fff;
+}
+
+.navbar a:visited {
+	color: white;
+}
+
+.navbar a:hover {
+	color: #D0E9F2;
+}
+
+.navbar a:active {
+	color:#0000FF;
+}  
+
+.dropdown-menu a:link{
+	color: black;
+}
+
+
+
+ul li a {
+	color: #fff;
+}
+
+
+.friends {
+	color: #375AB3;
+}
+
+h1, h2, h3, h4 {
+	color: #375AB3;
+	text-shadow: 0px 0px 1px rgba(150, 150, 150, 1);
+}
+
+
+
+
+
+.btn-primary{
+background: #4967b2; /* Old browsers */
+background: -moz-linear-gradient(top,  #4967b2 0%, #11308e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4967b2), color-stop(100%,#11308e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #4967b2 0%,#11308e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #4967b2 0%,#11308e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #4967b2 0%,#11308e 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #4967b2 0%,#11308e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4967b2', endColorstr='#11308e',GradientType=0 ); /* IE6-9 */
+
+}
+
+.jumbotron {
+	background-color: #D0E9F2;
+}
+
+.media {
+	padding-top: 40px;
+}
+
+.cname {
+	text-align: center;
+}
+
+.uh-oh {
+	font-size: 13em;
+}
+
+
+table {
+	width: 52.083333333333%;
+}
+
+tr {
+	line-height: 50px;
+}
+
+input[type='text'], input[type='email'], input[type='password'] {
+	height: 30px;
+}
+
+label {
+	font-size: 1.2em;
+}
+
+aside {
+	float: right;
+	width: 46.875%;
+	background-color: #D0E9F2;
+	border-radius: 5px;
+	padding: 40px 5%;
+}
+
+aside {
+	text-align: center;
+}
