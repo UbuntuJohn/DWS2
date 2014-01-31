@@ -125,6 +125,11 @@ label {
 	font-size: 1.2em;
 }
 
+textarea {
+	resize: none;
+	font-size: 0.9em;
+}
+
 aside {
 	float: right;
 	width: 46.875%;
