@@ -28,7 +28,15 @@
 	color: black;
 }
 
+.dropdown-menu a:visited{
+	color: black;
+}
+
 .dropdown-menu a:hover{
+	color: black;
+}
+
+.dropdown-menu a:active{
 	color: black;
 }
 
