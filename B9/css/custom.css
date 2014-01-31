@@ -1,5 +1,5 @@
-* {
-
+.navbar .nav > li > a {
+    color: #fff;
 }
 
 .navbar {
@@ -7,20 +7,21 @@
 	color: #fff;
 }
 
+
 .navbar a:link {
 	color: #fff;
 }
 
 .navbar a:visited {
-	color: white;
+	color: #fff;
 }
 
 .navbar a:hover {
-	color: #D0E9F2;
+	color: #fff;
 }
 
 .navbar a:active {
-	color:#0000FF;
+	color: #fff;
 }  
 
 .dropdown-menu a:link{
